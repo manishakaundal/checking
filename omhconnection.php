@@ -1,8 +1,8 @@
 <?php
-	$servername = "localhost";  //Or you can use 127.0.0.1    echo $mysqli->host_info . "\n";
-	$username = "root";
-	$password = "";
-	$database = "test";
+	$servername = "ap-cdbr-azure-east-c.cloudapp.net";  //Or you can use 127.0.0.1    echo $mysqli->host_info . "\n";
+	$username = "ba399a026d89b7";
+	$password = "48853dae";
+	$database = "omh";
 
 	$mysqli = new mysqli($servername, $username, $password, $database);
 
